@@ -1,58 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Simplotel</title>
-</head>
-<body>
-    
-    <div class="layout">
-        <div class="navbar">
-            <ul class="nav-list">
-                <li class="nav-items">Home</li>
-                <li class="nav-items">Order</li>
-                <li class="nav-items">Food</li>
-                <li class="nav-items">Restaurant</li>
-                <li class="nav-items">Testimonials</li>
-                <li class="nav-items">Contact Us</li>
-                <li class="nav-items"><img src="./images/menu-bar.png" alt="menu-bar" class="menu-bar" /></li>
-            </ul>
-        </div>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <ul class="navList">
+          <li>Home</li>
+          <li>Order</li>
+          <li>Food</li>
+          <li>Restaurant</li>
+          <li>Testimonials</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
 
-        <div class="section-1">
-            <div class="sub-section1">
-                <h1 class="title">LOREM IPSUM</h1>
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                    id est vitae dolor rhoncus tristique. Maecenas metus quam,
-                    rhoncus euismod lorem in, sollicitudin viverra eros. Donec
-                    dictum luctus quam ut tristique. Curabitur nec faucibus purus.
-                    Quisque congue sem nec justo mollis, in tincidunt erat pretium.
-                    Sed pulvinar, massa ac porta viverra.
-                </p>
-                <button class="click">Click Me</button>
-            </div>
-            <div class="sub-section2">
-                <img src="./images/burger.jpg" alt="burger" class="burger-img" />
-            </div>
+      <div class="collapsible-menu">
+        <input type="checkbox" id="menu" />
+        <label class="menu" for="menu">
+          <img class="menuIcon" src="./images/menu-bar.png" />
+        </label>
+        <div class="menu-content">
+          <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Order</li>
+            <li><a href="#"></a>Food</li>
+            <li><a href="#"></a>Restaurant</li>
+            <li><a href="#"></a>Testimonials</li>
+            <li><a href="#"></a>Contact Us</li>
+          </ul>
         </div>
+      </div>
 
-        <div class="section-2">
-            <div class="street-imgs">
-                <img src="./images/street2.jpg" alt="street2" class="street-img" />
-                <img src="./images/street.jpg" alt="street" class="street-img" />
-            </div>
-            <div class="food-imgs">
-                <img src="./images/food.jpg" alt="food" class="food-img" />
-            </div>
-            <div class="banner">
-                <h3 class=banner-title>LOREM IPSUM</h3>
-                <h1 class="banner-heading">LOREM IPSUM SET ADEMIR</h1>
-                <p class="banner-click">Click <img src="./images/arrow.png" alt="arrow" class="arrow-img" /></p>
-            </div>
+      <div class="background">
+        <div class="content">
+          <div class="contentLeft">
+            <h1 class="contentLeftHeading">LOREM IPSUM</h1>
+            <p class="contentLeftpara">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Cupiditate nemo animi, ad corporis consequatur possimus nesciunt
+              consequuntur asperiores saepe, amet expedita quibusdam, libero
+              eius doloribus suscipit ex omnis nostrum porro?
+            </p>
+            <button class="contentLeftButton">Click Me</button>
+          </div>
+          <div class="contentRight">
+            <img class="contentRightImg" src="./images/burger.jpg" />
+          </div>
         </div>
+        <div class="page2">
+          <div class="page2Left">
+            <div class="gridcontainer">
+              <img class="imgOne" src="./images/street2.jpg" alt="image1" />
+              <img class="imgTwo" src="./images/food.jpg" alt="image2" />
+              <img class="imgThree" src="./images/street.jpg" alt="image3" />
+            </div>
+          </div>
+          <div class="page2Right">
+            <div class="page2RightContent">
+              <p>LOREM IPSUM</p>
+              <h>LOREM IPSUM SET ADEMIR</h>
+              <button>
+                Click<img class="arrowButton" src="./images/arrow.png" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
